@@ -27,7 +27,7 @@ char *num = "73167176531330624919225119674426574742355349194934\
 
 
 int main(){
-long izpis=1, st;
+long long izpis=1, st;
 int pov=0;
 int ss;
 char * i,*a;
@@ -45,7 +45,7 @@ char * i,*a;
 
     	if(izpis < st){ 
     	    izpis=st;
-    		printf("%d",izpis);
+    		printf("%lld",izpis);
             printf ("::%.*s \n",13,i);
 
 }
